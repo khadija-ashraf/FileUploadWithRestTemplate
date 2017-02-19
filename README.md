@@ -92,6 +92,7 @@ Now make the call.
 HttpEntity<MultiValueMap<String, Object>> requestEntity = new HttpEntity(multipartRequest, headers);
 ```
 
+--------------
 
 ### 2. Writing the Server.
 
@@ -174,6 +175,11 @@ Beans that will make the @ReqeustMapping annotation on the class or method to be
 
 
 ##### Refs:
-[https://tamasgyorfi.net/2015/03/27/posting-multipart-requests-with-resttemplate/](https://tamasgyorfi.net/2015/03/27/posting-multipart-requests-with-resttemplate/)
-[http://www.ibm.com/developerworks/library/wa-spring3webserv/](http://www.ibm.com/developerworks/library/wa-spring3webserv/)
-[http://moznion.hatenadiary.com/entry/2015/03/05/233142](http://moznion.hatenadiary.com/entry/2015/03/05/233142)
+* [https://tamasgyorfi.net/2015/03/27/posting-multipart-requests-with-resttemplate/](https://tamasgyorfi.net/2015/03/27/posting-multipart-requests-with-resttemplate/)
+* [http://www.ibm.com/developerworks/library/wa-spring3webserv/](http://www.ibm.com/developerworks/library/wa-spring3webserv/)
+* [http://moznion.hatenadiary.com/entry/2015/03/05/233142](http://moznion.hatenadiary.com/entry/2015/03/05/233142)
+
+
+
+
+
