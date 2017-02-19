@@ -159,7 +159,6 @@ public boolean uploadPartnerPropertyImages(HttpServletRequest request) {
     return success;
 }
 ```
-**This is it!!! We are done with file uploading using RestTemplate.**
 
 
 #### Step 5:
@@ -173,6 +172,7 @@ Add below lines in the applicationContext.xml.
 Beans that will make the @ReqeustMapping annotation on the class or method to be processed by Spring.
 
 
+**This is it!!! We are done with file uploading using RestTemplate.**
 
 ##### Refs:
 * [https://tamasgyorfi.net/2015/03/27/posting-multipart-requests-with-resttemplate/](https://tamasgyorfi.net/2015/03/27/posting-multipart-requests-with-resttemplate/)
