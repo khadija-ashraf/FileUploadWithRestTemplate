@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fileUpload-restTemplate:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="fileupload-resttemplate-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="fileUpload-restTemplate:war exploded" />
+    </root>
+  </artifact>
+</component>
